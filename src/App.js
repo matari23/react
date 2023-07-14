@@ -1,19 +1,18 @@
-// import logo from './logo.svg';
 import React from "react";
+import'./App.css';
+// import Event from "./event";
+// import Goal from "./if";
+// import Car from "./car";
+// import Mapping from "./map";
+import Myform from "./form";
 
-// import './App.css';
-// import Hello from"./hello";
-// import Cont from "./cont";
-// import Counter from "./counter";
-import InputSample from "./inputSample"
-
-    function App(){
-      return(
-
-        <InputSample/>
-
-      )
-    }
-
+function App(){
+  
+  return(
+    <>
+    <Myform/>
+    </>
+  )
+}
 
 export default App;
